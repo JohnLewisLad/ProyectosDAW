@@ -1,66 +1,158 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Proyectos DAW 2024-2025
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Aplicación web desarrollada con **Laravel** que reúne diferentes propuestas, ejercicios y funcionalidades trabajadas por alumnos del ciclo formativo de **Desarrollo de Aplicaciones Web (DAW)** durante el curso académico 2024-2025.
 
-## About Laravel
+El proyecto sirve como espacio de experimentación y aprendizaje, integrando distintos ejemplos de desarrollo web en una misma aplicación.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 🎯 Objetivo del proyecto
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+El objetivo es reunir y poner en práctica los conocimientos adquiridos durante el curso mediante el desarrollo de diferentes funcionalidades web.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+La aplicación permite experimentar con aspectos habituales del desarrollo web, como la gestión de datos, las operaciones CRUD, la autenticación de usuarios, el enrutamiento y la integración de interfaces dinámicas.
 
-## Learning Laravel
+## ✨ Funcionalidades
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Entre los módulos y funcionalidades presentes en el proyecto se encuentran:
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- **Dibujos:** listado paginado y operaciones para crear, consultar, modificar y eliminar dibujos.
+- **Piedra, papel o tijera:** módulo de juego accesible desde la sección correspondiente de la aplicación.
+- **Gestión de gastos:** sección para trabajar con registros de gastos.
+- **Publicaciones (*Chirps*):** módulo de publicaciones con operaciones de gestión.
+- **Autenticación de usuarios:** registro, inicio de sesión y funcionalidades relacionadas con la cuenta.
+- **Perfil de usuario:** gestión de la información del perfil.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+La disponibilidad de algunas secciones depende de la autenticación y de las rutas definidas en la aplicación.
 
-## Laravel Sponsors
+## 🛠️ Tecnologías utilizadas
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+- **[Laravel 11](https://laravel.com/):** framework PHP para el desarrollo de la aplicación.
+- **[PHP](https://www.php.net/):** lenguaje de programación del servidor (versión 8.2 o superior).
+- **[SQLite](https://www.sqlite.org/):** base de datos configurada por defecto en el archivo de entorno de ejemplo.
+- **[Tailwind CSS](https://tailwindcss.com/):** utilidades para la construcción de interfaces.
+- **[Alpine.js](https://alpinejs.dev/):** interactividad en el cliente.
+- **[Vite](https://vite.dev/):** herramientas para el desarrollo y la compilación de recursos frontend.
+- **[Composer](https://getcomposer.org/):** gestión de dependencias PHP.
+- **[Node.js y npm](https://nodejs.org/):** gestión de dependencias y herramientas frontend.
 
-### Premium Partners
+## 📋 Requisitos previos
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+Antes de instalar el proyecto, asegúrate de disponer de:
 
-## Contributing
+- PHP 8.2 o superior.
+- Composer.
+- Node.js y npm.
+- Las extensiones de PHP necesarias para Laravel y SQLite.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+También puedes utilizar el entorno Docker configurado mediante Laravel Sail, siempre que dispongas de Docker y sigas los requisitos de dicho entorno.
 
-## Code of Conduct
+## 🚀 Instalación y puesta en marcha
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### 1. Clonar el repositorio
 
-## Security Vulnerabilities
+```bash
+git clone https://github.com/JohnLewisLad/ProyectosDAW.git
+cd ProyectosDAW
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 2. Instalar las dependencias
 
-## License
+Instala las dependencias de PHP y JavaScript:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```bash
+composer install
+npm install
+```
+
+### 3. Configurar el entorno
+
+Crea el archivo de configuración local a partir del ejemplo:
+
+```bash
+cp .env.example .env
+```
+
+Genera la clave de la aplicación:
+
+```bash
+php artisan key:generate
+```
+
+### 4. Preparar la base de datos
+
+La configuración de ejemplo utiliza SQLite. Crea el archivo de base de datos si todavía no existe:
+
+```bash
+touch database/database.sqlite
+```
+
+Comprueba que el archivo `.env` contiene la siguiente configuración:
+
+```dotenv
+DB_CONNECTION=sqlite
+```
+
+Ejecuta las migraciones para crear las tablas:
+
+```bash
+php artisan migrate
+```
+
+Si deseas utilizar otro sistema de base de datos, tendrás que adaptar la configuración del entorno y disponer del servidor correspondiente.
+
+### 5. Compilar los recursos frontend
+
+Para generar los recursos de la aplicación:
+
+```bash
+npm run build
+```
+
+Durante el desarrollo puedes utilizar el modo de actualización automática:
+
+```bash
+npm run dev
+```
+
+### 6. Iniciar el servidor
+
+En una terminal, ejecuta:
+
+```bash
+php artisan serve
+```
+
+Abre en el navegador la dirección que indique Artisan, normalmente:
+
+[http://127.0.0.1:8000](http://127.0.0.1:8000)
+
+> **Nota:** la ruta principal de la aplicación redirige actualmente al inicio de sesión. Para acceder a las secciones protegidas, necesitarás una cuenta válida y completar la configuración que corresponda.
+
+## 📁 Estructura del proyecto
+
+El proyecto sigue la estructura habitual de una aplicación Laravel:
+
+| Directorio | Descripción |
+|---|---|
+| `app/` | Controladores, modelos y lógica de la aplicación. |
+| `bootstrap/` | Inicialización del framework. |
+| `config/` | Configuración de los servicios y componentes. |
+| `database/` | Migraciones, factorías y seeders. |
+| `public/` | Punto de entrada y recursos públicos. |
+| `resources/` | Vistas y recursos frontend. |
+| `routes/` | Definición de las rutas de la aplicación. |
+| `storage/` | Archivos generados, registros y otros datos de almacenamiento. |
+| `tests/` | Pruebas automatizadas. |
+
+## 🎓 Contexto académico
+
+Este repositorio está vinculado al aprendizaje y la práctica del desarrollo de aplicaciones web durante el curso 2024-2025.
+
+Los módulos incluidos permiten trabajar con diferentes conceptos y técnicas de programación web, así como servir de referencia para explorar distintas soluciones dentro de una aplicación basada en Laravel.
+
+## 📄 Licencia
+
+Este proyecto se distribuye bajo la **licencia MIT**, una licencia de código abierto que permite utilizar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y comercializar el software, siempre que se respeten sus condiciones, incluida la conservación del aviso de copyright y del texto de la licencia.
+
+Consulta el archivo [`LICENSE`](LICENSE) para conocer los términos completos de la licencia.
+
+ESte código esta disponible públicamente para fomentar el aprendizaje, la colaboración y el intercambio de conocimientos
