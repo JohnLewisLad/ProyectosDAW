@@ -145,14 +145,12 @@ El proyecto sigue la estructura habitual de una aplicación Laravel:
 
 ## 🎓 Contexto académico
 
-Este repositorio está vinculado al aprendizaje y la práctica del desarrollo de aplicaciones web durante el curso 2024-2025.
+Este repositorio está vinculado al aprendizaje y la práctica del desarrollo de aplicaciones web en entorno servidor. Esta disponible públicamente para fomentar el aprendizaje, la colaboración y el intercambio de conocimientos.
 
-Los módulos incluidos permiten trabajar con diferentes conceptos y técnicas de programación web, así como servir de referencia para explorar distintas soluciones dentro de una aplicación basada en Laravel.
+Los módulos incluidos permiten trabajar con diferentes conceptos y técnicas de programación (vistos en otros modulos del ciclo), así como servir de referencia para explorar distintas soluciones dentro de una aplicación basada en Laravel.
 
 ## 📄 Licencia
 
 Este proyecto se distribuye bajo la **licencia MIT**, una licencia de código abierto que permite utilizar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y comercializar el software, siempre que se respeten sus condiciones, incluida la conservación del aviso de copyright y del texto de la licencia.
 
 Consulta el archivo [`LICENSE`](LICENSE) para conocer los términos completos de la licencia.
-
-ESte código esta disponible públicamente para fomentar el aprendizaje, la colaboración y el intercambio de conocimientos
